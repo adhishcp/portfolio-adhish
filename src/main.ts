@@ -6,8 +6,8 @@ declare var bootstrap: any;
 // resume download
 const downloadCV = () => {
   const link = document.createElement("a");
-  link.href = "/cv/akash_software_engineer.pdf"; // path relative to public/
-  link.download = "Akash_KV_CV.pdf"; // filename on download
+  link.href = "/cv/Adhish_Resume.pdf"; // path relative to public/
+  link.download = "Adhish.pdf"; // filename on download
   link.click();
 };
 

@@ -1,7 +1,9 @@
 import type { GitHubRepoList } from "./types/github-repo.type";
 declare var particlesJS: any;
 
-const response = await fetch("https://api.github.com/users/akashkv11/repos");
+const response = await fetch("https://api.github.com/users/adhishcp?tab=repositories");
+
+console.log(response)
 
 const repos = sortReposWithDescription(await response.json());
 
